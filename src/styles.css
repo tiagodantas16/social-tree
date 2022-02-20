@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body {
+  background: #29292e;
+  font-family: 'Poppins', sans-serif;
+}
+.social-container {
+  width: 80rem;
+  height: 60rem;
+  background: #29292e;
+  
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  position: absolute;
+  width: 13.3rem;
+  height: 13.3rem;
+  left: 38.3rem;
+  top: 3.5rem;
+    
+  border-radius: 50%;
+  border: 0.125rem solid #BB99DD;
+  z-index: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 12.5rem;
+  height: 12.5rem;
+  left: 38.7rem;
+  top: 3.9rem;
+}
+.tex-span {
+  position: absolute;
+  width: 5.625rem;
+  height: 1.5rem;
+  left: 41.8rem;
+  top: 18.1rem;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  text-align: center;
+  color: #BB99DD;
+}
+a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  color: #BB99DD;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.link1 {
+  position: absolute;
+  width: 20.4rem;
+  height: 4.1rem;
+  left: 34.7rem;
+  top: 20.9rem;
+  
+  border: 0.125rem solid #BB99DD;
+  border-radius: 0.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link2 {
+  position: absolute;
+  width: 20.4rem;
+  height: 4.1rem;
+  left: 34.7rem;
+  top: 26rem;
+
+  border: 0.125rem solid #BB99DD;
+  border-radius: 0.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link3 {
+  position: absolute;
+  width: 20.4rem;
+  height: 4.1rem;
+  left: 34.7rem;
+  top: 31.1rem;
+
+  border: 0.125rem solid #BB99DD;
+  border-radius: 0.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link4 {
+  position: absolute;
+  width: 20.4rem;
+  height: 4.1rem;
+  left: 34.7rem;
+  top: 36.2rem;
+
+  border: 0.125rem solid #BB99DD;
+  border-radius: 0.25rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  position: absolute;
+  width: 14.6rem;
+  height: 1.5rem;
+  left: 37.6rem;
+  top: 41.9rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inline {
+  display: inline-block;
+  align-items: center;
+  margin: 0.8rem;
+}
